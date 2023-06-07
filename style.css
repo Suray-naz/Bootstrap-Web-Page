@@ -1,0 +1,9 @@
+.main{
+    height: 100vh;
+    background-image: url(./img/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: purple;
+    padding-top: 20%;
+}
