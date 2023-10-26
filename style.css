@@ -7,3 +7,59 @@
     color: purple;
     padding-top: 20%;
 }
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #ffff;
+    background-color: #dc3545;
+    margin: auto;
+}
+
+.circle i{
+    position: relative;
+    top: 35px;
+    
+    
+}
+
+.card{
+    border: none;
+}
+
+.card-title{
+    font-size: 1.3rem;
+}
+
+.buttons-img{
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.team img{
+    width: 250px;
+    border: 10px solid #cccc;
+}
+
+.social{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #ffff;
+    background-color: #333;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.logos img{
+    width: 160px;
+}
+
+
+.contact{
+    background-image: url(./img/map.jpeg);
+    background-repeat: no-repeat;
+    
+}

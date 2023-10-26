@@ -15,20 +15,23 @@
     <!-- ----------------------------------------------------------------------- -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <div class="container navbar-full d-flex justify-content-between align-items-center">
+            <div class="container navbar-full d-flex justify-content-sm-between align-items-center">
                 <div class="navbar-left">
           <a class="navbar-brand" href="#">Harvey Tech</a>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdownmenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           
-          <div class="navbar-right" id="navbarSupportedContent">
+          <div class="navbar-right collapse navbar-collapse" id="dropdownmenu">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a></li>
-                <a class="nav-link" href="#">Portfolio</a></li>
-                <a class="nav-link" href="#">About Us</a></li>
-                <a class="nav-link" href="#">Staff</a></li>
-                <a class="nav-link" href="#">Contact Us</a></li>
+                <a class="nav-link" href="#services">Services</a></li>
+                <a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <a class="nav-link" href="#aboutus">About Us</a></li>
+                <a class="nav-link" href="#staff">Staff</a></li>
+                <a class="nav-link" href="#contactus">Contact Us</a></li>
               
           </div>
         </div>
@@ -44,7 +47,7 @@
         <div class="container-fluid main">
             <div class="container text-center">
                 <h2 class="display-6">The IT Career of YOur Dream Starts Here!</h2>
-                <h1 class="display-1">Harvey Tech!</h1>
+                <h1 class="display-1">I love Coding👌</h1>
                 <a href="#services">
                     <button type="button" class="btn btn-danger btn-lg">Our Services</button>
                 </a>
@@ -57,14 +60,288 @@
     <!--                                SERVICES                                 -->
     <!-- ----------------------------------------------------------------------- -->
 
-    <div class="container-fluid services">
+    <div class="container-fluid services pt-5" id="services">
         <div class="container text-center">
             <h2 class="display-3" id="services">Services</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, aperiam?</p>
 
+            <div class="row p-4">
+                <div class="card col-md-4">
+                    <span class="circle">
+                        <i class="fas fa-code fa-5x"></i>
+                    </span>
+                    <div class="card-body">
+                        <h5>Programming</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, accusantium?</p>
+                      
+                    </div>
+                  </div>
+
+                <div class="card col-md-4">
+                    <span class="circle">
+                        <i class="fas fa-palette fa-5x"></i>
+                    </span>
+                    <div class="card-body">
+                        <h5>Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, accusantium?</p>
+                      
+                    </div>
+                  </div>
+
+                <div class="card col-md-4">
+                    <span class="circle">
+                        <i class="fas fa-network-wired fa-5x"></i>
+                    </span>
+                    <div class="card-body">
+                        <h5>Networking</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, accusantium?</p>
+                      
+                    </div>
+                  </div>
+            </div>
+
         </div>
     </div>
 
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                PORTFOLIO                                -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fluid bg-light p-5" id="portfolio">
+        <div class="container text-center">
+            <h2 class="display-3">Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi incidunt quod cum officia explicabo nemo earum delectus vitae consectetur sint.</p>
+
+
+            <div class="row g-4">
+                <div class="col col-md-4">
+                    <div class="card border border-2 border-subtle">
+                    <img src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-aws-solution-architechdevops-engineering-prp8n4giyz4w5x35hfw80el486a6lqd6oi60i0n87c.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem Ipsum</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col col-md-4">
+                    <div class="card border border-2 border-subtle">
+                    <img src="https://clarusway.com/wp-content/uploads/elementor/thumbs/Aws-Solution-Architech-1-prp8pzurur2fn0wypol6mohtkk4k4frnqpxfagdx6w.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem Ipsum</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col col-md-4">
+                    <div class="card border border-2 border-subtle">
+                    <img src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-All-Courses-prp8n6c7cn7gt50f6gph5e41ey0x14kncrgzgkkfuw.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem Ipsum</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col col-md-4">
+                    <div class="card border border-2 border-subtle">
+                    <img src="https://clarusway.com/wp-content/uploads/elementor/thumbs/Kubernetes-and-aws-eks-prp8q995r3fav4jb6sngbm4fieu89esz40ga37zzgo.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem Ipsum</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col col-md-4">
+                    <div class="card border border-2 border-subtle">
+                    <img src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-Fullstack-developer-prp8n1n0eh117378xwocaxaqg0o2yn1zo47k26req0.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem Ipsum</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col col-md-4">
+                    <div class="card border border-2 border-subtle">
+                    <img src="https://clarusway.com/wp-content/uploads/elementor/thumbs/v1-aws-solution-architechdevops-engineering-prp8n4giyz4w5x35hfw80el486a6lqd6oi60i0n87c.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Lorem Ipsum</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                ABOUT US                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fluid pt-5" id="aboutus">
+        <div class="container">
+            <h2 class="display-3 text-center">About Us</h2>
+            <p class="text-center pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, impedit!</p>
+            <div class="float">
+                <img src="./img/aboutus.jpeg" alt="" class="float-md-end col-md-6 ps-5 buttons-img" height="300">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consequuntur distinctio nemo molestiae fugiat sint ea tenetur. Est, quas asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consequuntur distinctio nemo molestiae fugiat sint ea tenetur. Est, quas asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consequuntur distinctio nemo molestiae fugiat sint ea tenetur. Est, quas asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consequuntur distinctio nemo molestiae fugiat sint ea tenetur. Est, quas asperiores.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  TEAM                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fluid bg-light pt-4" id="staff">
+        <div class="container text-center">
+            <h2 class="display-3 text-center mt-5">Our Team</h2>
+            <p class="text-center pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, impedit!</p>
+            <div class="row">
+                <div class="col-md-4 team">
+                    <img class="rounded-circle mb-3" src="./img/TMPTG1GNP-U013H1B2E6S-af21b1c9a5d2-512.jpeg" alt="">
+                    <h4>Mark Madisson</h4>
+                    <p>Web Developer</p>
+                    <p>
+                        <a href="#" class="social">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                        <a href="" class="social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </p>
+
+                </div>
+                <div class="col-md-4 team">
+                    <img class="rounded-circle mb-3" src="./img/TMPTG1GNP-U02AJCK80E9-b0d6a19d3f8a-512.png" alt="">
+                    <h4>Noah Adams</h4>
+                    <p>FullStack Developer</p>
+                    <p>
+                        <a href="#" class="social">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                        <a href="" class="social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </p>
+
+                </div>
+                <div class="col-md-4 team">
+                    <img class="rounded-circle mb-3" src="./img/TMPTG1GNP-U01RQF1QAMD-cc0e1c7eafb3-512.png" alt="">
+                    <h4>Harvey Watson</h4>
+                    <p>Mobile Developer</p>
+                    <p>
+                        <a href="#" class="social">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                        <a href="" class="social">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               LOGOS                                     -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fluid p-5">
+        <div class="container logos">
+            <div class="row justify-content-center align-items-center">
+                <div class="col">
+                    <a href="https:/www.google.com">
+                        <img src="./img/google.png" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.goldmansachs.com/">
+                        <img src="./img/goldman.png" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https:/www.apple.com">
+                        <img src="./img/4331547_original-1.webp" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https:/www.infosys.com">
+                        <img src="./img/20190476-infosys-logo-infosys-symbol-kostenlos-kostenlos-vektor.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https:/www.deloitte.com">
+                        <img src="./img/Unknown.png" alt="">
+                    </a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 CONTACT                                 -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fluid contact">
+        <div class="container" id="contactus">
+            <h2 class="display-3 text-center text-white">Contact Us</h2>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minima tempore assumenda ullam culpa! Vero rerum quas nostrum molestiae.</p>
+            <form action="">
+            <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Phone Number</label>
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <textarea class="form-control form-control-lg" rows="6"></textarea>
+                    </div>
+                </div>
+                <div class="mx-auto btn text-center">
+                    <button type="button" class="btn btn-lg btn-danger">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
 
